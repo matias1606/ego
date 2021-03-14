@@ -1,0 +1,90 @@
+.ficha_modelo{
+    margin-top:90px;
+    img{
+        height: 100%;
+        width: 100%;
+    }
+    .texto-ficha{
+        padding-left: 118px;
+        h5{
+            font-size: 20px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.35;
+            letter-spacing: normal;
+            color: #373737;
+        }
+        h1{
+            font-size: 50px;
+            font-weight: 600;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.14;
+            letter-spacing: -1px;
+            color: #373737;
+        }
+        p{
+            padding-top: 3em;
+            font-family: Montserrat;
+            font-size: 16px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.69;
+            letter-spacing: -0.1px;
+            color: #373737;
+        }
+    }
+}
+
+.auto-texto{
+    margin-left: 246px;
+    margin-right: 151px;
+    img{
+        height: 100%;
+        width: 100%;
+        vertical-align: middle;
+    }
+    h3{
+        margin-top: 70px;
+        font-size: 20px;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.35;
+        letter-spacing: -0.4px;
+        color: #373737;
+    }
+    p{
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.69;
+        letter-spacing: -0.1px;
+        color: #373737;
+    }
+}
+
+
+@media(max-width:992px){
+    .ficha_modelo{
+        .texto-ficha{
+            padding-left: 10px;
+            padding-right: 10px;
+            h1{
+              font-size: 35px;  
+              color: #191919;
+            }
+        }
+    }
+    
+}
+
+@media(max-width:992px){
+    .auto-texto{
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
