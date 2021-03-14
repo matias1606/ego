@@ -12,7 +12,7 @@ import Ficha from './components/Ficha';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <Header></Header>
         <Redirect to="/categoria/0"></Redirect>
         <Switch>

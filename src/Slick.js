@@ -2,6 +2,7 @@ import React from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
+import motor from './img/10-g.png'
 const settings = {
     dots: true,
     infinite: true,
@@ -48,7 +49,7 @@ const Slick = () => {
         <div className="slick-content grande">
         <Slider {...settings}>
           <div className="imagen">
-            <img src={process.env.PUBLIC_URL + `img/4.png`} alt=""/>
+            <img src={motor} alt=""/>
             <h3>Transmisión manual</h3>
             <p> Posibilidad de elección de caja automática de  manejo. </p>
           </div>
