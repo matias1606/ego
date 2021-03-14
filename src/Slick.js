@@ -48,7 +48,7 @@ const Slick = () => {
         <div className="slick-content grande">
         <Slider {...settings}>
           <div className="imagen">
-            <img src={process.env.PUBLIC_URL + `img/slick-img/4.png`} alt=""/>
+            <img src={process.env.PUBLIC_URL + `img/4.png`} alt=""/>
             <h3>Transmisión manual</h3>
             <p> Posibilidad de elección de caja automática de  manejo. </p>
           </div>
