@@ -49,7 +49,7 @@ const Slick = () => {
         <div className="slick-content grande">
         <Slider {...settings}>
           <div className="imagen">
-            <img src={motor} alt=""/>
+            <img src="https://i.postimg.cc/4N44LpCH/1.jpg" alt=""/>
             <h3>Transmisión manual</h3>
             <p> Posibilidad de elección de caja automática de  manejo. </p>
           </div>
@@ -73,7 +73,7 @@ const Slick = () => {
       <div className="slick-content chico">
           <Slider {...settings}>
           <div className="imagen">
-            <img src={process.env.PUBLIC_URL + `img/slick-img/1.jpg`} alt=""/>
+            <img src="https://i.postimg.cc/4N44LpCH/1.jpg" alt=""/>
             <h3>Nuevos Motores Toyota</h3>
             <p> Dos alternativas diesel con turbo de geometría variable, 1GD (2.8 L) y 2GD (2.4 L). </p>
           </div>

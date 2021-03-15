@@ -31,7 +31,7 @@ const ItemListContainer = () => {
                                 <h6 className="btn dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filtrar  por</h6>   
                                 <div className="dropdown-menu categoria" aria-labelledby="dropdownMenuButton">
                                     {categorias.map((categoria) => (
-                                        <NavLink className="dropdown-item" to={`/categoria/${categoria.id}`}>{categoria.nombre}</NavLink>
+                                        <NavLink className="dropdown-item" to={`/#/categoria/${categoria.id}`}>{categoria.nombre}</NavLink>
                                     ))}
                                 </div>
                         </div>
