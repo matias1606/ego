@@ -12,9 +12,8 @@ import Ficha from './components/Ficha';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/ego">
         <Header></Header>
-        <Redirect to="/categoria/0"></Redirect>
         <Switch>
           <Route exact path="/categoria/:categoria">
             <ItemListContainer></ItemListContainer>
